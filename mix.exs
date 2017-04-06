@@ -29,6 +29,9 @@ defmodule Hodor.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:porcelain, "~> 2.0"}]
+    [{:porcelain, "~> 2.0"},
+     {:distillery, "~> 1.3.3"},
+     {:sshex, "~> 2.2.0"}
+    ]
   end
 end
